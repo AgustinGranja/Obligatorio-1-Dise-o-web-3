@@ -1,0 +1,25 @@
+// 
+// Forms
+// 
+
+.form-floating {
+
+    input,
+    textarea {
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        color: #fff;
+
+        &:focus {
+            box-shadow: none;
+            color: #fff;
+        }
+
+    }
+
+    label {
+        color: #fff;
+    }
+
+}

@@ -1,0 +1,99 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Travel Trails
+
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css.pug
+
+    body
+
+        include includes/navbar.pug
+
+        // Page Header
+        header.masthead(style="background-image: url('assets/img/home-bg.jpg')")
+            .container.position-relative.px-4.px-lg-5
+                .row.gx-4.gx-lg-5.justify-content-center
+                    .col-md-10.col-lg-8.col-xl-7
+                        .site-heading
+                            h1 Explore the World with Us
+                            span.subheading Discover breathtaking destinations, unique experiences, and travel tips to make your journeys unforgettable.
+
+        // Main Content
+        .container.px-4.px-lg-5
+            .row.gx-4.gx-lg-5.justify-content-center
+                .col-md-10.col-lg-8.col-xl-7
+
+                    // Post preview
+                    .post-preview
+                        a(href='post.html')
+                            h2.post-title
+                                | Unveiling the Hidden Gems of Kyoto
+                            h3.post-subtitle
+                                | A guide to exploring the lesser-known treasures of Japan's cultural heart.
+                        p.post-meta
+                            | Posted by
+                            a(href='#!') Jane Smith
+                            | on May 15, 2024
+                    
+                    // Divider
+                    
+
+                    // Post preview
+                    .post-preview
+                        a(href='post.html')
+                            h2.post-title
+                                | Experience the thrill of hiking through South America's most stunning landscapes.
+                        p.post-meta
+                            | Posted by
+                            a(href='#!') John Doe
+                            | on April 18, 2024
+                    
+                    // Divider
+                   
+
+                    // Post preview
+                    .post-preview
+                        a(href='post.html')
+                            h2.post-title
+                                | A Culinary Journey Through Italy
+                            h3.post-subtitle
+                                | Discover the rich flavors and traditions of Italian cuisine, from Rome to Sicily.
+                        p.post-meta
+                            | Posted by
+                            a(href='#!') Jane Smith
+                            | on March 24, 2024
+
+                    // Divider
+                    
+
+                    // Post preview
+                    .post-preview
+                        a(href='post.html')
+                            h2.post-title
+                                | Capturing the Northern Lights in Iceland
+                            h3.post-subtitle
+                                | Tips and tricks for photographing one of nature's most mesmerizing phenomena.
+                        p.post-meta
+                            | Posted by
+                            a(href='#!') Michael Green
+                            | on February 8, 2024
+                    
+                    // Divider
+                    
+
+                    // Pager
+                    .d-flex.justify-content-end.mb-4
+                        a.btn.btn-primary.text-uppercase(href='#!') Older Posts →
+        
+        include includes/footer.pug
+
+        include includes/scripts.pug

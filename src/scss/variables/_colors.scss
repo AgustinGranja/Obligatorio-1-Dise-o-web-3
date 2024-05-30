@@ -1,0 +1,19 @@
+// 
+// Colors
+// 
+
+// Define Grayscale values used in variables before Bootstrap loads
+$gray-900: #212529;
+$primary: #1A535C;
+$primary-hover:#277c8a;
+$secondary: #4ECDC4;
+$danger: #FF6B6B;
+$body-bg: #1d1d1d;
+$text-muted: #828282;
+$border-color: #E0E0E0;
+$body-color: #333333;
+
+// Override Bootstrap color and state values
+
+// Override Bootstrap default contrast ratio
+$min-contrast-ratio: 3;

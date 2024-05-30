@@ -1,0 +1,44 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Clean Blog - Start Bootstrap Theme
+
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css.pug
+
+    body
+
+        include includes/navbar.pug
+
+        // Page Header
+        header.masthead(style="background-image: url('assets/img/about-bg.jpg')")
+            .container.position-relative.px-4.px-lg-5
+                .row.gx-4.gx-lg-5.justify-content-center
+                    .col-md-10.col-lg-8.col-xl-7
+                        .page-heading
+                            h1 About us
+                            span.subheading Explore. Discover. Connect.
+
+        // Main Content
+        main.mb-4
+            .container.px-4.px-lg-5
+                .row.gx-4.gx-lg-5.justify-content-center
+                    .col-md-10.col-lg-8.col-xl-7
+                        p
+                            | Welcome to Travel Trails, your go-to source for exploring the world's most captivating destinations. Our mission is to inspire and guide travelers to discover new places, embrace different cultures, and create unforgettable memories.
+                        p
+                            | Our passionate team brings you the best travel content, from hidden gems to essential tips and guides. We believe travel is about connecting with people and seeing the world from new perspectives.
+                        p
+                            | At Travel Trails, we promote sustainable and responsible travel. Join us and let Travel Trails be your trusted companion in exploring the wonders of the world.
+
+        include includes/footer.pug
+
+        include includes/scripts.pug
